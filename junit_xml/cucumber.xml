@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="8.880599">
+<testcase classname="LoginFeature" name="Verify that user is able to perform actions on Radio Button Example Section" time="8.880599">
+<system-out><![CDATA[Given the user navigates to LetsKodeit practice page........................passed
+Then I am able to select 'Honda' from the drop down menu....................passed
+]]></system-out>
+</testcase>
+</testsuite>

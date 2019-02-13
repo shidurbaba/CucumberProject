@@ -1,0 +1,129 @@
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Login.feature");
+formatter.feature({
+  "line": 1,
+  "name": "LoginFeature",
+  "description": "",
+  "id": "loginfeature",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "comments": [
+    {
+      "line": 2,
+      "value": "#  @SmokeTest_1"
+    },
+    {
+      "line": 3,
+      "value": "#  Scenario: Verify that user is able to see Dashboard UI components"
+    },
+    {
+      "line": 4,
+      "value": "#    Given the user navigates to LetsKodeit practice page"
+    },
+    {
+      "line": 5,
+      "value": "#    Then the user lands on the page check Practice Page header title is visible."
+    },
+    {
+      "line": 6,
+      "value": "#    Then the user is displayed the header dashboard"
+    },
+    {
+      "line": 7,
+      "value": "#    Then the user is able to see Practice Menu"
+    },
+    {
+      "line": 8,
+      "value": "#    Then the user is able to see Login Menu"
+    },
+    {
+      "line": 9,
+      "value": "#    Then the user is able to see SignUp Button"
+    },
+    {
+      "line": 10,
+      "value": "#    Then the user close the browser"
+    },
+    {
+      "line": 12,
+      "value": "#  @SmokeTest_2"
+    },
+    {
+      "line": 13,
+      "value": "#  Scenario: Verify that user is able to perform actions on Radio Button Example Section"
+    },
+    {
+      "line": 14,
+      "value": "#    Given the user navigates to LetsKodeit practice page"
+    },
+    {
+      "line": 15,
+      "value": "#    Then the user Radio Button Example Section Title should be visible"
+    },
+    {
+      "line": 16,
+      "value": "#    Then the user should be displayed BMW radio button"
+    },
+    {
+      "line": 17,
+      "value": "#    Then user clicks on BMW radio button"
+    },
+    {
+      "line": 18,
+      "value": "#    Then the user should be displayed Benz radio button"
+    },
+    {
+      "line": 19,
+      "value": "#    Then user clicks on Benz radio button"
+    },
+    {
+      "line": 20,
+      "value": "#    Then the user should be displayed Honda radio button"
+    },
+    {
+      "line": 21,
+      "value": "#    Then user clicks on Honda radio button"
+    },
+    {
+      "line": 22,
+      "value": "#    Then the user close the browser"
+    }
+  ],
+  "line": 26,
+  "name": "Verify that user is able to perform actions on Radio Button Example Section",
+  "description": "",
+  "id": "loginfeature;verify-that-user-is-able-to-perform-actions-on-radio-button-example-section",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 25,
+      "name": "@SmokeTest_3"
+    }
+  ]
+});
+formatter.step({
+  "line": 27,
+  "name": "the user navigates to LetsKodeit practice page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 28,
+  "name": "I am able to select \u0027Honda\u0027 from the drop down menu",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "LetsKodeItStepDef.the_user_navigates_to_LetsKodeit_practice_page()"
+});
+formatter.result({
+  "duration": 8631714724,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LetsKodeItStepDef.iAmAbleToSelectHondaFromTheDropDownMenu()"
+});
+formatter.result({
+  "duration": 248884443,
+  "status": "passed"
+});
+});
