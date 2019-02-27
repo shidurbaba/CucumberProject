@@ -25,6 +25,6 @@ Feature: LoginFeature
   @SmokeTest_3
  Scenario: Verify that user is able to perform actions on Radio Button Example Section
   Given the user navigates to LetsKodeit practice page
-  Then I am able to select 'Honda' from the drop down menu
-#   Then I am able to select "Benz" from the drop down menu
-#    Then user clicks on BMW radio button
+#  Then I am able to select 'Honda' from the drop down menu
+   Then I am able to select "Benz" from the drop down menu
+    Then user clicks on BMW radio button

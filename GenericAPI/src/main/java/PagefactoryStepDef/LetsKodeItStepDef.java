@@ -28,7 +28,7 @@ public class LetsKodeItStepDef extends CommonAPI {
         driver.get(CommonInstances.LETSKODEITURL);
     }
 
-    /*@Then("^the user lands on the page check Practice Page header title is visible\\.$")
+  /*  *//*@Then("^the user lands on the page check Practice Page header title is visible\\.$")
     public void the_user_lands_on_the_page_check_Practice_Page_header_title_is_visible() throws Throwable {
         WebElement PracticeTitle = letsKodeIt.getLKT_PracticePage_Page_Title();
         Assert.assertTrue(PracticeTitle.isDisplayed());
@@ -67,9 +67,9 @@ public class LetsKodeItStepDef extends CommonAPI {
     @Then("^the user close the browser$")
     public void theUserCloseTheBrowser() throws Throwable {
         driver.close();
-    }*/
+    }*//*
 
-    /*@Then("^the user Radio Button Example Section Title should be visible$")
+    *//*@Then("^the user Radio Button Example Section Title should be visible$")
     public void the_user_Radio_Button_Example_Section_Title_should_be_visible() throws Throwable {
         letsKodeIt.checkRadioButtonSectionTitleVisible();
         Thread.sleep(1000);
